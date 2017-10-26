@@ -5,35 +5,32 @@ body, html {
 
 .bgimg {
     /* Background image */
-    background-image: url('background.png');
+    background: url('background.png') no-repeat center;
     /* Full-screen */
     height: 100%;
     /* Center the background image */
-    background-position: center;
     /* Scale and zoom in the image */
-    background-size: cover;
+    background-size: auto;
     /* Add position: relative to enable absolutely positioned elements inside the image (place text) */
     position: relative;
     /* Add a white text color to all elements inside the .bgimg container */
     color: GREY;
     /* Add a font */
     font-family: "Courier New", Courier, monospace;
-    /* Set the font-size to 25 pixels */
-    font-size: 15;
 }
 
 /* Position text in the top-left corner */
 .topleft {
     position: absolute;
     top: 0;
-    left: 16px;
+    left: 12px;
 }
 
 /* Position text in the bottom-left corner */
 .bottomleft {
     position: absolute;
     bottom: 0;
-    left: 16px;
+    left: 12px;
 }
 
 /* Position text in the middle */
@@ -41,12 +38,11 @@ body, html {
     position: absolute;
     top: 15%;
     left: 15%;
-    transform: translate(-50%, -50%);
     text-align: left
 }
 
 /* Style the <hr> element */
 hr {
     margin: auto;
-    width: 40%;
+    width: 30%;
 }
